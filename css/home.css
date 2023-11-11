@@ -377,19 +377,6 @@
   margin: 0 auto;
 }
 
-.customer-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.customer-item {
-  margin: 0 10px;
-}
-
-.customer-item img {
-  height: 40px;
-}
-
 .customer-content {
   width: 1200px;
   margin: 0 auto;

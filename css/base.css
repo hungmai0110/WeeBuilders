@@ -50,7 +50,7 @@
   color: white;
 }
 
-.header-nav li:nth-child(1) a {
+.header-nav .active {
   color: #ffa33c;
 }
 
@@ -125,4 +125,18 @@
   color: #fff;
   font-size: 14px;
   font-weight: 500;
+}
+
+/* customer-list */
+.customer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-item {
+  margin: 0 10px;
+}
+
+.customer-item img {
+  height: 40px;
 }
