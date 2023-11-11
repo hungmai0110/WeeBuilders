@@ -1,0 +1,28 @@
+@import url(base.css);
+
+.portfolio-detail {
+  margin-top: 60px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.portfolio-detail .detail-img,
+.portfolio-detail .description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.portfolio-detail .description {
+  margin-top: 45px;
+}
+
+.portfolio-detail .description h4 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-detail .description p {
+  margin-bottom: 20px;
+}

@@ -1,9 +1,15 @@
 @import url(reset.css);
 
+.layout-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* header */
 .header {
   width: 100%;
   height: 116px;
+  top: 0;
   position: fixed;
   display: flex;
   align-items: center;
@@ -139,4 +145,29 @@
 
 .customer-item img {
   height: 40px;
+}
+
+/* path */
+.path {
+  margin-top: 116px;
+  padding: 12px 0;
+  background: #f4f5f7;
+}
+
+.path-container {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.path .original-path {
+  padding: 0 12px;
+  color: #475973;
+}
+
+.path .title {
+  padding-left: 12px;
+  color: #4c2f6b;
+  font-weight: 600;
 }

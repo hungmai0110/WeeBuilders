@@ -21,6 +21,10 @@
   text-align: center;
 }
 
+.about-container .description {
+  max-width: 724px;
+}
+
 .about-container h1 {
   width: 1035px;
   font-size: 70px;

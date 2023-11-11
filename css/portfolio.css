@@ -1,7 +1,7 @@
 @import url(base.css);
 
 .portfolio {
-  padding-top: 196px;
+  padding: 250px 0 118px;
   background-image: url(/images/portfolio/bg-banner.png);
 }
 
@@ -81,6 +81,7 @@
   font-weight: 500;
   color: #333333;
   margin-bottom: 8px;
+  padding-left: 12px;
 }
 
 .product-item p {
@@ -88,4 +89,5 @@
   line-height: 24px;
   font-weight: 500;
   color: #475973;
+  padding-left: 12px;
 }
