@@ -1,0 +1,91 @@
+@import url(base.css);
+
+.portfolio {
+  padding-top: 196px;
+  background-image: url(/images/portfolio/bg-banner.png);
+}
+
+.portfolio-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-container p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #ffa33c;
+  text-align: center;
+}
+
+.portfolio-container h1 {
+  width: 800px;
+  font-size: 70px;
+  line-height: 105px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.portfolio-container h1 span {
+  color: #ffa33c;
+}
+
+.product {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.product-option {
+  margin: 60px 0;
+}
+
+.option-list {
+  display: flex;
+  gap: 16px;
+}
+
+.option-list button {
+  padding: 12px 20px 12px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #f7f8fa;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.product-item {
+  width: 33.33%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.product-item h3 {
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.product-item p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #475973;
+}
