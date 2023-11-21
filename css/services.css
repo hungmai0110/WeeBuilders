@@ -1,0 +1,302 @@
+@import url(base.css);
+
+#services-page .banner {
+  padding: 250px 0 118px;
+  background-image: url(/images/services/bg-banner.png);
+}
+
+#services-page .banner__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#services-page .banner__content p {
+  color: white;
+  text-align: center;
+}
+
+#services-page .banner__content h1 {
+  width: 800px;
+  font-size: 70px;
+  line-height: 105px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#services-page .banner__content span {
+  color: #ffa33c;
+}
+
+.services-detais__container {
+  padding: 90px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+
+.services-detais__container p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.services-detais__container h2,
+.services-detais__container strong {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.services-detais__container strong {
+  line-height: 45px;
+  box-shadow: 0 0 0 0 #f2cd5c, inset 0 -10px 0 0 #f2cd5c;
+}
+
+.services-detais__param {
+  margin-top: 40px;
+}
+
+.services-detais__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.services-detais__cards .card-item {
+  position: relative;
+  box-shadow: 0px 0px 20px 0px #00000014;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.services-detais__cards .card-item__number {
+  position: absolute;
+  top: 21px;
+  right: 28px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.services-detais__cards
+  .list-cards:nth-child(1)
+  .card-item:nth-child(1)
+  .card-item__number {
+  color: #f2cd5c;
+}
+
+.services-detais__cards
+  .list-cards:nth-child(1)
+  .card-item:nth-child(2)
+  .card-item__number {
+  color: #4c2f6b;
+}
+
+.services-detais__cards
+  .list-cards:nth-child(2)
+  .card-item:nth-child(1)
+  .card-item__number {
+  color: #b15eff;
+}
+
+.services-detais__cards
+  .list-cards:nth-child(2)
+  .card-item:nth-child(2)
+  .card-item__number {
+  color: #ffa33c;
+}
+
+.services-detais__cards .list-cards:nth-child(2) .card-item:nth-child(1) {
+  margin-top: 76px;
+}
+
+.services-detais__cards .card-item__container {
+  padding: 48px 30px 24px;
+  font-weight: 500;
+}
+
+.services-detais__cards .card-item__container h4 {
+  font-size: 19px;
+  font-weight: 500;
+  margin: 24px 0 8px;
+}
+
+.services-detais__cards .card-item__container p {
+  font-size: 14px;
+  max-width: 180px;
+}
+
+.services-performance {
+  background-image: url(/images/services/performance/bg.png);
+}
+
+.services-performance__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding: 60px 0;
+}
+
+.services-performance__img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.services-performance__img .icon {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+}
+
+.services-performance__img .icon:first-child {
+  top: 0;
+  left: 0;
+}
+
+.services-performance__img .icon:nth-child(2) {
+  bottom: 0;
+  right: 0;
+}
+
+.services-performance__des {
+  padding-top: 80px;
+  color: #fff;
+}
+
+.services-performance__des p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.services-performance__des p:first-child {
+  color: #f2cd5c;
+}
+
+.services-performance__des h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 12px 0 52px;
+}
+
+.services-performance__des .des-item {
+  display: flex;
+}
+
+.services-performance__des .des-item img {
+  height: 32px;
+  margin-right: 12px;
+}
+
+.services-performance__des .des-item h5 {
+  color: #ffa33c;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 4px 0 18px;
+}
+
+.services-performance__des .des-item .content {
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+.outsourcing-services {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.outsourcing-services p {
+  color: #475973;
+}
+
+.outsourcing-services__title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  margin-top: 12px;
+}
+
+.outsourcing-services .list-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 75px 0 68px;
+}
+
+.outsourcing-services .list-card .card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f7f8fa;
+  border-radius: 12px;
+}
+
+.outsourcing-services .list-card .card-item img {
+  margin-top: 34px;
+}
+
+.outsourcing-services .list-card .card-item h5 {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 32px 0 8px;
+}
+
+.outsourcing-services .list-card .card-item img {
+  margin-top: 34px;
+}
+
+.outsourcing-services .list-card .card-item p {
+  margin-bottom: 24px;
+}
+
+.outsourcing-services .contact-card {
+  color: #fff;
+  border-radius: 12px;
+  background-image: url(/images/services/outsource/bg.png);
+}
+
+.outsourcing-services .contact-card .contact__container {
+  padding: 44px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.outsourcing-services .contact-card .contact__des {
+  text-align: left;
+}
+
+.outsourcing-services .contact-card .contact__des p {
+  color: #fff;
+}
+
+.outsourcing-services .contact-card .contact__des h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  margin: 12px 0;
+}
+
+.outsourcing-services .contact-card .contact__des p:first-child {
+  color: #ffa33c;
+}
+
+.outsourcing-services .contact-card button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  width: 168px;
+  border-radius: 12px;
+  background-color: #ffa33c;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.outsourcing-services .contact-card button i {
+  margin-left: 8px;
+}
