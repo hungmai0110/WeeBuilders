@@ -1,3 +1,10 @@
+const btnContactUs = document.querySelector(".header .header-nav button");
+
+btnContactUs.addEventListener("click", () => {
+  window.location.href = "../contact.html";
+});
+
+// slick
 $(".customer-staff-list").slick({
   infinite: true,
   slidesToShow: 3,
