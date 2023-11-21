@@ -1,0 +1,105 @@
+@import url(base.css);
+
+.contact-page {
+  padding-top: 200px;
+}
+
+.contact-page .contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+
+.contact-page .contact__des p {
+  color: #475973;
+}
+
+.contact-page .contact__des h3 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.contact-page .contact__des h3:first-child {
+  color: #ffa33c;
+}
+
+.contact-page .contact__des h3:nth-child(2) {
+  color: #4c2f6b;
+}
+
+.contact-page .contact__des h3:nth-child(2) + p {
+  margin: 30px 0 75px;
+}
+
+.contact-page .contact__des .about-us {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-page .contact__des .about-us img {
+  margin-right: 28px;
+}
+
+.contact-page .contact__form {
+  border: 1px solid #e1e4eb;
+  border-radius: 12px;
+}
+
+.contact__form .form__container {
+  padding: 32px 36px;
+}
+
+.contact__form .form__container h2 {
+  margin-bottom: 30px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.contact__form .form__container .form-group {
+  margin-bottom: 15px;
+}
+
+.contact__form .form__container label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.contact__form .form__container input[type="text"],
+.contact__form .form__container input[type="email"],
+.contact__form .form__container textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact__form .form__container input::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #b2bdcd;
+}
+
+.contact__form .form__container textarea {
+  resize: vertical;
+}
+
+.contact__form .form__container button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  border-radius: 12px;
+  background-color: #4c2f6b;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.contact__form .form__container button i {
+  margin-left: 8px;
+}
