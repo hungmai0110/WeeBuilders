@@ -165,3 +165,52 @@
   font-weight: 500;
   color: #4c2f6b;
 }
+
+@media only screen and (max-width: 428px) {
+  .news-page {
+    padding-top: 170px;
+  }
+
+  .news__container .latest-news__title h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+  }
+
+  .news-page .latest-news__list {
+    grid-template-columns: 1fr;
+  }
+
+  .latest-news__left .latest-news__content h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .latest-news__list .latest-news__content {
+    left: 25px;
+    bottom: 25px;
+  }
+
+  .news-page .featured-article .featured-article__container {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-article .featured-article__des h4 {
+    font-size: 24px;
+  }
+
+  .list-news__type p {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .list-news__cards {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .list-news__cards h5 {
+    font-size: 14px;
+  }
+}
