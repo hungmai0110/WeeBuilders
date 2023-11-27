@@ -26,3 +26,10 @@
 .portfolio-detail .description p {
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 428px) {
+  .portfolio-detail .detail-img,
+  .portfolio-detail .description {
+    grid-template-columns: 1fr;
+  }
+}
